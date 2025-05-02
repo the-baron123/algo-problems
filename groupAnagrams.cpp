@@ -4,7 +4,7 @@
 #include <map>
 #include <algorithm>
 /*slower solution but still more uniqe(in my opinion at least)*/
-std::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string>& strs) {
+static std::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string>& strs) {
 	std::vector<std::vector<std::string>> res;
 	std::map<std::map<char, int>, std::vector<std::string>> groups;//hold the groups of anagrams by index to put in the answer after
 	std::map<char, int> MapForWord;
@@ -26,7 +26,7 @@ std::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string>& st
 }
 
 /*second solution faster and more simple but still not optimal I could'nt understand the idea :( */
-std::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string>& strs)
+static std::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string>& strs)
 {
 	std::unordered_map<std::string, std::vector<std::string>> res;
 	for (const auto& s : strs) {
