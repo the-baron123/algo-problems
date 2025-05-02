@@ -18,5 +18,11 @@
     <ClCompile Include="groupAnagrams.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="K Frequent Elements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Encode and Decode Strings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="groupAnagrams.cpp" />
     <ClCompile Include="K Frequent Elements.cpp" />
+    <ClCompile Include="Encode and Decode Strings.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
